@@ -1,0 +1,26 @@
+&{/leds} {
+	red_ledt_1: red_1 {
+		gpios = < &gpiob 0x6 GPIO_ACTIVE_LOW >;
+		label = "red LED NS";
+	};
+	yellow_ledt_1: yellow_1 {
+		gpios = < &gpioc 0x7 GPIO_ACTIVE_LOW >;
+		label = "yellow LED NS";
+	};
+	green_ledt_1: green_1 {
+		gpios = < &gpioa 0x8 GPIO_ACTIVE_LOW >;
+		label = "green LED NS";
+	};
+	red_ledt_2: red_2 {
+		gpios = < &gpiob 0x4 GPIO_ACTIVE_LOW >;
+		label = "red LED WE";
+	};
+	yellow_ledt_2: yellow_2 {
+		gpios = < &gpiob 0x5 GPIO_ACTIVE_LOW >;
+		label = "yellow LED WE";
+	};
+	green_ledt_2: green_2 {
+		gpios = < &gpiob 0x0 GPIO_ACTIVE_LOW >;
+		label = "green LED WE";
+	};
+};
